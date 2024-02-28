@@ -1,0 +1,468 @@
+html{
+   min-width: 1000px;
+    background: linear-gradient(27deg, rgb(16, 16, 16), rgb(28, 30, 30));
+}
+#heading {
+    font-family: moon flower;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 60px;
+    stroke: aliceblue;
+    animation: fadein 3s forwards;
+    position: relative;
+    -webkit-animation: fadein 3s forwards;
+    animation-timing-function: ease-in;
+}
+#top{
+    width: 300px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    position: relative;
+    opacity: 0;
+    top: -5%;
+    left: 550px;
+    animation: fadeinb 3s forwards;
+    animation-delay: 3s;
+    -webkit-animation: fadeinb 3s forwards;
+    animation-timing-function: ease-in;
+}
+#vid{
+    position: relative;
+    left: 550px;
+    top: 100px;
+    display: inline-block;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 1px 0px .75vw rgb(92, 91, 91);
+}
+
+#midtext{
+ position: relative;
+ color: aliceblue;
+ font-family: moon flower;
+ left: 560px;
+ top: 120px;
+ font-size: larger;
+}
+#bottombox {
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-style: groove;
+    opacity: 0;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    top:280px;
+    left: 590px;
+    box-align: center;
+    animation: mid 3s forwards 2s ease-out;
+    -webkit-animation: mid 3s forwards 2s ease-out;
+}
+#projectby {
+    color: azure;
+    font-size: larger;
+    font-family: moon flower;
+    text-align: center;
+    margin-top: 5px;
+}
+#logo{
+    position: absolute;
+    margin-top: 5px;
+    left: 120px;
+}
+#rec2 {
+    position: relative;
+    display: inline;
+    object-fit: cover;
+    pointer-events: auto;
+    box-shadow: 0 0 2vw rgb(107, 105, 105);
+    display: inline-block;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: border-color 1s;
+    animation: botl 3s forwards 2s ease-out;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-animation: botl 3s forwards 2s ease-out;
+}
+#rec3{
+    display: inline;
+    object-fit: cover;
+    pointer-events: auto;
+    box-shadow: 0 0 2vw rgb(107, 105, 105);
+    display: inline-block;
+    border-style: solid;
+    transition: border-color 1s;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    position: relative;
+    opacity: 0;
+    animation: topr 3s forwards 2s ease-out;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-animation: topr 3s forwards 2s ease-out;
+}
+#rec4{
+    position: relative;
+    display: inline;
+    transition: border-color 1s;
+    object-fit: cover;
+    pointer-events: auto;
+    box-shadow: 0 0 2vw rgb(107, 105, 105);
+    display: inline-block;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    opacity: 0;
+    animation: botr 3s forwards 2s ease-out;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-animation: botr 3s forwards 2s ease-out;
+}
+#animid{
+    opacity: 0;
+    animation: mid 3s forwards 2s ease-out;
+    -webkit-animation: mid 3s forwards 2s ease-out;
+    transition: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    text-decoration: underline;
+}
+#animid:hover{
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    -moz-text-decoration-color: aliceblue;
+    box-shadow: 0 2px 5vw rgb(124, 124, 125);
+}
+
+#animid:hover p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    display:block;
+    margin-left: 5px;
+    font-family: moon flower;
+    animation:fadein 2s forwards;
+    -webkit-animation:fadein 2s forwards;
+}
+#f7{
+    position: relative;
+    left: 10px;
+    bottom: 750px;
+    animation: op 3s infinite;
+    -webkit-animation: op 3s infinite;
+    animation-timing-function: ease-in-out;
+    transition: width height 8s;
+    -webkit-transition: width height 8s;
+    -moz-transition: width height 8s;
+    -ms-transition: width height 8s;
+    -o-transition: width height 8s;
+}
+#f7:hover{
+    width: 900px;
+    height: 600px
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+#rec1{
+    position: relative;
+    display: inline;
+    object-fit: cover;
+    pointer-events: auto;
+    box-shadow: 0 0 2vw rgb(107, 105, 105);
+    display: inline-block;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: border-color 1s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    animation: topl 3s forwards 2s ease-out;
+    -webkit-animation: topl 3s forwards 2s ease-out;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+#rec1:hover p{
+     position: absolute;
+     text-align: center;
+     color: aliceblue;
+     font-size: larger;
+     font-weight: 100;
+     display:block;
+     margin-left: 5px;
+     font-family: moon flower;
+     animation:fadein 2s forwards;
+     -webkit-animation:fadein 2s forwards;
+}
+#rec1 p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+    font-family: moon flower;
+    opacity: 0;
+    display: none;
+}
+#animid p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+    font-family: moon flower;
+    opacity: 0;
+    display: none;
+}
+#rec2:hover p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    display:block;
+    margin-left: 5px;
+    font-family: moon flower;
+    animation:fadein 2s forwards;
+    -webkit-animation:fadein 2s forwards;
+}
+#rec2 p{
+   position: absolute;
+   text-align: center;
+   color: aliceblue;
+   font-size: medium;
+   font-family: moon flower;
+   opacity: 0;
+   display: none;
+}
+#rec3:hover p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    display:block;
+    margin-left: 5px;
+    font-family: moon flower;
+    animation:fadein 2s forwards;
+    -webkit-animation:fadein 2s forwards;
+}
+#rec3 p{
+   position: absolute;
+   text-align: center;
+   color: aliceblue;
+   font-size: medium;
+   font-family: moon flower;
+   opacity: 0;
+   display: none;
+}
+#rec4:hover p{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    display:block;
+    margin-left: 5px;
+    font-family: moon flower;
+    animation:fadein 2s forwards;
+    -webkit-animation:fadein 2s forwards;
+}
+#rec4 p{
+   position: absolute;
+   text-align: center;
+   color: aliceblue;
+   font-size: medium;
+   font-family: moon flower;
+   opacity: 0;
+   display: none;
+}
+#rec1:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    border-color: aquamarine;
+    -webkit-transition: border-color;
+    -moz-transition: border-color;
+    -ms-transition: border-color;
+    -o-transition: border-color;
+    box-shadow: 0 2px 5vw rgb(124, 124, 125);
+    filter: hue-rotate(12deg) saturate(0.6);
+    -webkit-filter: hue-rotate(12deg) saturate(0.6);
+}
+#rec1:hover img{
+    opacity: .45;
+}
+#rec2:hover img{
+    opacity: .45;
+}
+#rec3:hover img{
+    opacity: .45;
+}
+#rec4:hover img{
+    opacity: .45;
+}
+#rec2:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    border-color: aquamarine;
+    filter: hue-rotate(12deg) saturate(0.6);
+    -webkit-filter: hue-rotate(12deg) saturate(0.6);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    box-shadow: 0 2px 5vw rgb(124, 124, 125);
+}
+#rec3:hover{
+    box-shadow: 0 2px 5vw rgb(124, 124, 125);
+    border-color: aquamarine;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    filter: hue-rotate(12deg) saturate(0.6);
+    -webkit-filter: hue-rotate(12deg) saturate(0.6);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+#rec4:hover{
+    box-shadow: 0 2px 5vw rgb(124, 124, 125);
+    border-color: aquamarine;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    filter: hue-rotate(12deg) saturate(0.6);
+    -webkit-filter: hue-rotate(12deg) saturate(0.6);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+#right{
+    opacity: 0;
+}
+@keyframes fadein {
+   from{
+    opacity: 0;
+    top: 0px;
+   }
+   to{
+    opacity: 1;
+    top: 20px;
+   }
+}
+@keyframes fadeinb {
+    from{
+        opacity: 0;
+        top: -3%;
+        left: 550px;
+    }
+    to{
+        opacity: 1;
+        top: -5%;
+        left: 550px;
+    }
+}
+@keyframes mid {
+    from{
+        opacity: 0;
+        rotate: -1deg;
+    }
+    to{
+        opacity: 1;
+        rotate: 1deg;
+    }
+}
+@keyframes topr {
+    50%{opacity: 0;}
+    100%{opacity:1;}
+    from{
+        top: -400px;
+        left: 700px;
+    }
+    to{
+        top: -400px;
+        left: 600px;
+    }
+}
+
+@keyframes botr {
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+    from{
+        left: 550px;
+        bottom: 50px;
+
+    }
+    to{
+        left: 350px;
+        bottom: 50px;
+    }
+}
+@keyframes mid {
+    100%{opacity: 1;}
+} @keyframes topl {
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+    from{
+        top:-400px;
+        left: 0px;
+
+    }
+    to{
+        top: -400px;
+        left: 100px;
+    }
+}
+@keyframes botl {
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+    from{
+        top:-50px;
+        left: -300px;
+
+    }
+    to{
+        top: -50px;
+        left: -150px;
+    }
+}
+@keyframes op {
+    from{
+        opacity: 0;
+        rotate: 3;
+    }
+    to{
+        opacity: 1;
+        rotate: 3;
+    }
+}
+

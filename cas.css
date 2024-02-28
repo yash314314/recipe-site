@@ -1,0 +1,24 @@
+@keyframes opa {
+
+
+    from {
+        opacity: 0;
+        transform: rotateX(20deg);
+        transform: rotateY(20deg);
+        top: 0px;
+        -webkit-transform: rotateY(20deg);
+        -moz-transform: rotateY(20deg);
+        -ms-transform: rotateY(20deg);
+        -o-transform: rotateY(20deg);
+}
+    to{
+        opacity: 1;
+        transform: rotateX(-2deg);
+        transform: rotateY(10deg);
+        top: 30px;
+        -webkit-transform: rotateX(-2deg);
+        -moz-transform: rotateX(-2deg);
+        -ms-transform: rotateX(-2deg);
+        -o-transform: rotateX(-2deg);
+}
+}
